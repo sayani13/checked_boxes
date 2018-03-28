@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wmps.paul_mac.newfood.MainActivity">
+
+
+    <CheckBox
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb1"
+        android:padding="20px"
+        android:text="Pizza : Rs.520"
+        android:textSize="30dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb2"
+        android:text="Burger : Rs.420"
+        android:textSize="30dp"
+        android:padding="20px"
+        android:layout_below="@+id/cb1"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb3"
+        android:text="Biryani : Rs.320"
+        android:textSize="30dp"
+        android:padding="20px"
+        android:layout_below="@+id/cb2"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb4"
+        android:text="French Fries : Rs.100"
+        android:textSize="30dp"
+        android:padding="20px"
+        android:layout_below="@+id/cb3"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb5"
+        android:text="Hotdog : Rs.180"
+        android:textSize="30dp"
+        android:padding="20px"
+        android:layout_below="@+id/cb4"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb6"
+        android:text="Taco : Rs.200"
+        android:textSize="30dp"
+        android:padding="20px"
+        android:layout_below="@+id/cb5"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb7"
+        android:text="Fruit Juice : Rs.70"
+        android:textSize="30dp"
+        android:padding="20px"
+        android:layout_below="@+id/cb6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btn1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/cb7"
+        />
+</RelativeLayout>
